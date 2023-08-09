@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header,
+footer,
+.information,
+.quote {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+header {
+  background-color: #1f2937;
+}
+header nav {
+  padding: 1rem 0;
+}
+
+footer {
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #f9faf8;
+}
+
+li:first-child {
+  margin-right: auto;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #e5e7eb;
+}
+/* ! HERO */
+.hero {
+  display: flex;
+  height: 400px;
+}
+
+.hero-left {
+}
+
+.hero-right {
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ! INFO */
+.information {
+}
+
+.cards {
+}
+
+.card {
+}
+
+/* ! QUOTE */
+.quote {
+}
