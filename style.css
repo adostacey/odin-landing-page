@@ -7,6 +7,7 @@
 body {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -26,6 +27,14 @@ header {
 }
 header nav {
   padding: 1rem 0;
+}
+
+body > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
 }
 
 footer {
@@ -92,11 +101,31 @@ a {
 }
 
 .cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.card > div {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #3882f6;
+  border-radius: 5px;
+}
+
+.card > p {
+  text-align: center;
+  font-size: 14px;
 }
 
 /* ! QUOTE */
 .quote {
+  background-color: #e5e7eb;
 }
