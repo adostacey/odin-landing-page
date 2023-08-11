@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+:root {
+  --clr-dark-blue: #1f2937;
+  --clr-light-blue: #3882f6;
+  --clr-gray: #e5e7eb;
+  --clr-white: #f9faf8;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,10 +19,54 @@ body {
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--clr-white);
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header,
+body > section,
+footer {
+  max-width: 1200px;
+}
+
+/* ! HEADER */
+header {
+  background-color: var(--clr-dark-blue);
+  padding: 1rem;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+header a {
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--clr-gray);
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* header logo */
+header li:first-child {
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--clr-white);
 }
 
 /* ! HERO */
+.hero {
+  background-color: var(--clr-dark-blue);
+}
 
 .hero img {
   width: 100%;
@@ -23,6 +76,7 @@ body {
 
 /* ! INFO */
 .information {
+  background-color: #fff;
 }
 
 /* ! QUOTE */
