@@ -17,7 +17,8 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* align-items: center; */
+  /* justify-content: space-between; */
   margin: 0;
   padding: 0;
   background-color: var(--clr-white);
@@ -28,7 +29,7 @@ body {
 header,
 body > section,
 footer {
-  max-width: 1200px;
+  /* max-width: 1200px; */
 }
 
 ul {
@@ -185,7 +186,21 @@ header li:first-child {
 /* ! CTA */
 .cta {
   padding: 5rem 10%;
-  background-color: var(--clr-white);
+  background-color: #fff;
+  color: var(--clr-white);
+}
+
+.cta > div {
+  display: flex;
+
+  padding: 2rem 10%;
+  background-color: var(--clr-light-blue);
+  border-radius: 5px;
+}
+
+.cta button {
+  margin-left: auto;
+  border: 1px solid var(--clr-white);
 }
 
 /* ! FOOTER */
