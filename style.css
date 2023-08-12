@@ -26,6 +26,14 @@ body {
   color: var(--clr-black);
 }
 
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 header,
 body > section,
 footer {
@@ -49,11 +57,12 @@ button {
 /* ! HEADER */
 header {
   background-color: var(--clr-dark-blue);
-  /* padding: 1rem 10%; */
+  padding: 1rem 10%;
+  display: flex;
+  flex-direction: column;
 }
 
 header ul {
-  padding: 1rem 10%;
   display: flex;
   align-items: center;
   gap: 3rem;
@@ -79,7 +88,6 @@ header li:first-child {
 
 /* ! HERO */
 .hero {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -115,7 +123,6 @@ header li:first-child {
 
 .hero-left,
 .hero-right {
-  border: 1px solid greenyellow;
   flex: 1;
   /* height: 200px; */
 }
@@ -131,7 +138,6 @@ header li:first-child {
   /* align-items: center; */
   padding: 4rem 10%;
   background-color: #fff;
-  border: 1px solid red;
 }
 
 .information h2 {
@@ -141,7 +147,6 @@ header li:first-child {
 }
 
 .cards {
-  border: 1px solid greenyellow;
   display: flex;
   justify-content: space-around;
 }
