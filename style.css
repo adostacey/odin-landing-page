@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 
 :root {
+  --clr-black: #1f2937;
   --clr-dark-blue: #1f2937;
   --clr-light-blue: #3882f6;
   --clr-gray: #e5e7eb;
@@ -21,6 +22,7 @@ body {
   padding: 0;
   background-color: var(--clr-white);
   font-family: "Roboto", sans-serif;
+  color: var(--clr-black);
 }
 
 header,
@@ -82,7 +84,7 @@ header li:first-child {
   align-items: flex-start;
   gap: 1rem;
   background-color: var(--clr-dark-blue);
-  padding: 3rem 10%;
+  padding: 4rem 10%;
 }
 
 .hero h1 {
@@ -123,7 +125,41 @@ header li:first-child {
 
 /* ! INFO */
 .information {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 4rem 10%;
   background-color: #fff;
+  border: 1px solid red;
 }
 
+.information h2 {
+  margin-bottom: 2rem;
+  font-size: 36px;
+  text-align: center;
+}
+
+.cards {
+  border: 1px solid greenyellow;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+}
+
+.card > div {
+  width: 150px;
+  height: 150px;
+  border: 3px solid var(--clr-light-blue);
+  border-radius: 5px;
+}
+
+.card > p {
+  text-align: center;
+}
 /* ! QUOTE */
