@@ -181,3 +181,17 @@ header li:first-child {
   margin-left: auto;
   padding-right: 25%;
 }
+
+/* ! CTA */
+.cta {
+  padding: 5rem 10%;
+  background-color: var(--clr-white);
+}
+
+/* ! FOOTER */
+footer {
+  padding: 1rem 10%;
+  text-align: center;
+  background-color: #1f2937;
+  color: var(--clr-white);
+}
